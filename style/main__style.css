@@ -1147,8 +1147,7 @@ footer .footer_menu_item {
         margin: 22px auto 0;
     }
 
-    .section1 .logos_box {
-    }
+    .section1 .logos_box {}
 
     .section1 .row_box_mob {
         justify-content: space-between;
@@ -1609,6 +1608,10 @@ footer .footer_menu_item {
         line-height: 26px;
     }
 
+    .section1 .box {
+        display: none;
+    }
+
     .section2 .content {
         padding: 26px 25px 48px;
     }
@@ -1646,6 +1649,22 @@ footer .footer_menu_item {
         line-height: 29px;
         margin: 14px 0;
         text-align: center;
+    }
+
+    .section4 .title {
+        padding: 0 25px;
+    }
+
+    .section7 #splide1 {
+        margin: 50px auto 100px;
+    }
+
+    .section7 .splide__pagination {
+        bottom: -50px;
+    }
+
+    .section7 {
+        padding: 84px 0 100px;
     }
 
     .section4 .content,
@@ -1768,8 +1787,8 @@ footer .footer_menu_item {
     .section7 .review_text_box {
         margin: 0 0 30px;
     }
-    .burger-menu_nav
-    {
+
+    .burger-menu_nav {
         width: 80%;
     }
 }
